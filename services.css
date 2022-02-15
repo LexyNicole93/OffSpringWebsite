@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Kumbh Sans", sans-serif;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500&display=swap');
@@ -212,8 +213,8 @@
     justify-content: center;
     justify-self: center;
     z-index: 1000;
-   
-   
+    object-fit: cover;
+    
 }
 
 
@@ -294,7 +295,11 @@
     width: 100%;
 }
 
-
+.services{
+    display: flex;
+    position: relative;
+    height: 100%;
+}
 
 .services__container {
     display: flex;
@@ -309,7 +314,7 @@
     width: 100%;
     max-width: 1400px;
     padding: 0 50px;
-    top: 600px;
+    top: 400px;
     background: #131313;
  }
 
@@ -370,6 +375,7 @@
     justify-content: center;
     color: #fff;
     
+    
 }
 
 .services__btn:hover{
@@ -377,6 +383,32 @@
     transition: 0.2s ease-in;
     cursor: pointer;
     background-color: #fa8080;
+}
+
+
+@media screen and (max-width: 960px) {
+    .services__container {
+        height: 1600px;
+    }
+
+    .services h1{
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .services__container {
+        height: 1400px;
+    }
+
+    .services h1{
+        font-size: 1.2rem;
+    }
+
+    .services__card {
+        width: 300px;
+    }
 }
 
 /*footer css*/
@@ -389,7 +421,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 2000px;
+    top: 1800px;
 }
 
 #footer__logo{
