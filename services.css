@@ -320,6 +320,7 @@
     padding: 0 50px;
     top: 400px;
     background: #131313;
+    object-fit: cover;
  }
 
 .services__card{
