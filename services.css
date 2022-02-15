@@ -295,16 +295,7 @@
     width: 100%;
 }
 
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    /*height: 100%;*/
-    object-fit: cover;
-}
+
 
 .services__container {
     display: flex;
