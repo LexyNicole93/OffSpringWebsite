@@ -297,7 +297,7 @@
 }
 
 .services__container{
-    display: flex;
+    display: flex;           /*fixed white space content and footer*/
     flex-wrap: wrap;
     padding-top: 40rem;
     width: 100%;
